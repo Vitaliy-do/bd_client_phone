@@ -80,7 +80,6 @@ if __name__== '__man__':
     with psycopg2.connect(ddatabase = "test5", 
                           user = "postgres",
                           password = "P@ssw0rd5") as conn:
-       with conn.cursor() as cur:
     
        # 1.Создание базы данных
         create_db(conn) 
